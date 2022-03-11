@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.rename.MainUI">
+  <grid id="f2dbf" binding="mainContainer" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="80" y="90" width="239" height="400"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <focusable value="false"/>
+      <maximumSize width="-1" height="-1"/>
+      <minimumSize width="200" height="300"/>
+      <preferredSize width="300" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1c1d3" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <maximumSize width="-1" height="-1"/>
+          <minimumSize width="200" height="300"/>
+          <preferredSize width="200" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9aa2a" binding="leftHolder" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="300"/>
+                <preferred-size width="200" height="300"/>
+              </grid>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="670fb" class="javax.swing.JRadioButton" binding="jpegToJPG">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="54" height="18"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <requestFocusEnabled value="false"/>
+                  <rolloverEnabled value="false"/>
+                  <text value="jpegToJPG"/>
+                  <toolTipText value="Rename &quot;jpeg&quot; to &quot;JPG&quot;"/>
+                </properties>
+              </component>
+              <component id="2f2a1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <labelFor value="ddd01"/>
+                  <text value="Extension1: "/>
+                  <toolTipText value="Enter extension to be renamed."/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+              <component id="7fdea" class="javax.swing.JTextField" binding="extension1">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <toolTipText value="Enter the extension to be renamed."/>
+                </properties>
+              </component>
+              <component id="a1557" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <labelFor value="bfe8e"/>
+                  <text value="Extension2: "/>
+                  <toolTipText value="Enter the extension to be changed to."/>
+                </properties>
+              </component>
+              <component id="f37c3" class="javax.swing.JTextField" binding="extension2">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <toolTipText value="Enter the extension to be changed to."/>
+                </properties>
+              </component>
+              <component id="5d530" class="javax.swing.JButton" binding="close">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="close"/>
+                  <alignmentY value="0.0"/>
+                  <background color="-65515"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <label value="close"/>
+                  <name value="close"/>
+                  <text value="close"/>
+                </properties>
+              </component>
+              <component id="61e68" class="javax.swing.JButton" binding="start">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="start"/>
+                  <background color="-13824040"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <foreground color="-1"/>
+                  <name value="start"/>
+                  <rolloverEnabled value="true"/>
+                  <text value="start"/>
+                </properties>
+              </component>
+              <component id="43668" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="18" height="26"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="2"/>
+                  <labelFor value="5709e"/>
+                  <text value="Path:"/>
+                  <toolTipText value="Enter a path to find the file to be renamed."/>
+                  <verticalAlignment value="1"/>
+                  <verticalTextPosition value="1"/>
+                </properties>
+              </component>
+              <component id="bc741" class="javax.swing.JTextField" binding="path">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="26"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <toolTipText value="Enter a path to find the file to be renamed."/>
+                </properties>
+              </component>
+              <grid id="c6bb1" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6657"/>
+                  <foreground color="-6657"/>
+                  <opaque value="false"/>
+                  <requestFocusEnabled value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b0715" class="javax.swing.JLabel" binding="dropLocation">
+                    <constraints>
+                      <card name="Card1"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="false"/>
+                      <focusable value="false"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="com/resource/myFolder.png"/>
+                      <text value="DROP HERE"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="a9004" class="javax.swing.JButton" binding="pick">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="10" height="29"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <defaultCapable value="false"/>
+                  <focusPainted value="false"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="2"/>
+                  <iconTextGap value="5"/>
+                  <inheritsPopupMenu value="false"/>
+                  <maximumSize width="10" height="10"/>
+                  <minimumSize width="10" height="10"/>
+                  <preferredSize width="10" height="10"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="true"/>
+                  <text value="pick"/>
+                  <toolTipText value="Pick folder"/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                  <verticalTextPosition value="3"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="1632c" class="javax.swing.JProgressBar" binding="progressBar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="14"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <focusable value="false"/>
+              <minimumSize width="-1" height="7"/>
+              <preferredSize width="-1" height="7"/>
+              <requestFocusEnabled value="false"/>
+              <stringPainted value="false"/>
+              <verifyInputWhenFocusTarget value="false"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
